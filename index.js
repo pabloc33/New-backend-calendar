@@ -3,7 +3,7 @@ const cors = require("cors");
 const { dbConnection } = require("./database/config");
 //const path = require("path");
 require("dotenv").config({
-  path: "public/.env",
+  path: ".env",
 });
 
 //* Crear el servidor de express
